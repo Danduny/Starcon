@@ -3,10 +3,178 @@ h1 {
     text-align: center;
     padding-top: 20px;
     font-family: 'Jost', sans-serif;
+    max-width:100%;
 }
 
 .head-pt-2 {
     font-family: 'Dancing Script', cursive;
     font-size: 42px;
     margin-right: 25px;
+    max-width:100%;
 }
+
+.column {
+    padding: 8px;
+    max-width:100%;
+}
+
+.row {
+    margin-left: 200px;
+    max-width:100%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    max-width:100%;
+  }
+
+  .text-block {
+    position: absolute; 
+    background-color: white;
+    color: #333333;
+    top: 410px;
+    left: 260px;
+    font-family: 'Cairo', sans-serif;
+    padding: 8px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 16px;
+    max-width:100%;
+  }
+
+  .text-block-1 {
+    position: absolute; 
+    background-color: white;
+    color: #333333;
+    top: 410px;
+    left: 583px;
+    font-family: 'Cairo', sans-serif;
+    padding: 8px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 16px;
+    max-width:100%;
+  }
+
+    .text-block-2 {
+    position: absolute; 
+    background-color: white;
+    color: #333333;
+    max-width:100%;
+    
+    top: 410px;
+    left: 926px;
+    font-family: 'Cairo', sans-serif;
+    padding: 8px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 16px;
+  }
+
+  .text-block-3 {
+    position: absolute; 
+    background-color: white;
+    color: #333333;
+    height: 140px;
+    width: 450px;
+    top: 678px;
+    left: 220px;
+    font-family: 'Cairo', sans-serif;
+    padding: 40px;
+    margin: 0 auto;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    border: 1px solid #cccccc;
+    max-width:100%;
+  }
+  .text-block-3-2 {
+    /* Style for "300 nejpro" */
+    background-color: #ff6666;
+   height: 35px;
+    color: white;
+    position: absolute;
+    top: 671px;
+    left: 306px;
+    font-family: 'Cairo', sans-serif;
+    padding: 5px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 10px;
+    font-family: 'Dancing Script', cursive;
+    max-width:100%;
+  }
+
+  .red {
+      color: red;
+  }
+
+  .text-block-4 {
+    position: absolute; 
+    background-color: white;
+    color: #333333;
+    height: 140px;
+    width: 450px;
+    top: 678px;
+    left: 710px;
+    font-family: 'Cairo', sans-serif;
+    padding: 40px;
+    margin: 0 auto;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    border: 1px solid #cccccc;
+    max-width:100%;
+  }
+  .text-block-4-2 {
+    /* Style for "300 nejpro" */
+    background-color: #ff6666;
+   height: 35px;
+    color: white;
+    position: absolute;
+    top: 671px;
+    left: 835px;
+    font-family: 'Cairo', sans-serif;
+    padding: 5px;
+    font-size: 22px;
+    letter-spacing: 3px;
+    line-height: 10px;
+    font-family: 'Dancing Script', cursive;
+    max-width:100%;
+  }
+
+  /* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
